@@ -1,0 +1,56 @@
+/* Hamburger */
+@media only screen and (min-width: 40em) {   /* 640px  up*/ 
+    .hide-desktop{
+        display: none;
+    }   
+}
+
+@media only screen and (max-width: 39.9375em) {  /* 639px  down*/ 
+    .hide-mobile{
+        display: none;
+    }   
+
+    
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+    .section{
+        display: grid;
+        grid-template-columns: auto auto ;
+        justify-content: center;
+        grid-column-gap: 20px;
+    }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    .section{
+        display: grid;
+        grid-template-columns: auto auto auto;
+        justify-content: center;
+        grid-column-gap: 20px;
+    }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+    .section{
+        display: grid;
+        grid-template-columns: auto auto auto auto;
+        justify-content: center;
+        grid-column-gap: 20px;
+    }
+}
+
+
